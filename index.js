@@ -6,7 +6,7 @@ const init = async() => {
     // Create a browser instance
     const browser = await puppeteer.launch({
         args: ['--no-sandbox'],
-        headless:true,
+        headless:"new",
         timeout:10000
     });
     // Create a new page
